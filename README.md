@@ -1,10 +1,8 @@
 # PyBer-Analysis
 ## Challenge Overview
 
-Technical Analysis Deliverable 1: A DataFrame that summarizes the key metrics for the ride-sharing data by city type.
-Technical Analysis Deliverable 2: A multiple-line chart, with one line for each city type, that shows the sum of the fares for each week.
-Delivering Results: A written report of your results, saved in a README.md document on your GitHub repository.
-
+- Technical Analysis Deliverable 1: A DataFrame that summarizes the key metrics for the ride-sharing data by city type.
+- Technical Analysis Deliverable 2: A multiple-line chart, with one line for each city type, that shows the sum of the fares for each week.
 
 # Resources
 Data Source: city_data.csv, ride_data.csv
@@ -16,6 +14,7 @@ The purpose of this analysis is to dig deeper into the frequency and fare metric
 The pyber data was merged between the city and ride data files and the fares, drivers and rides were calculated to assess the totals and  averages across all city types.  Specific data was also filtered out so that the individual metrics by driver count and fare totals can be grouped together for the data setup and cleaning. 
 As seen in the below summary, the highest volume of rides & drivers is in the urban cities while lowest volume of rides & drivers are in the rural cities; but the highest fares and most lucrative fares for a driver is in the rural cities (although with less frequency). 
 ![City_Type_Dataframe](https://github.com/shumeiberk/PyBer-Analysis/blob/master/City_Type_Dataframe.JPG)
+
 If we just look at the weekly trends across the city types from Jan to April 2019, we can see that across almost all city types the peak ridership occurs end of Feb.  Urban and Suburban cities from Jan-Feb has an increase in riderhsip while there's a lull in the rural cities, in contrast rural cities increase ridership from Mar-Apr while urban cities is declining and suburban area is relatively flat.
 ![Challenge_Fare_Summary](https://github.com/shumeiberk/PyBer-Analysis/blob/master/Challenge_Fare_Summary.png)
 
